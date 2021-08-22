@@ -1,0 +1,8 @@
+*>a{
+    text-decoration: none !important ; 
+  }
+  a:visited{color:#1f1f1f;}
+  a:active{color: #1f1f1f;}
+  a{
+    color: #1f1f1f;
+  }
