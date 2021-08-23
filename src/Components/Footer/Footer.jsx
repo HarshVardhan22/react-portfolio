@@ -6,7 +6,7 @@ const Footer = () => {
     <div className={styles.footer}>
       <div className={styles.container}>
         <a href="https://github.com/HarshVardhan22">
-          <FaGithub color="white" size="28px" />
+          <FaGithub color="black" size="28px" />
         </a>
 
         <a href="https://harshvardhanportfolio.netlify.app/">

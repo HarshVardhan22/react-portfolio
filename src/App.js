@@ -16,7 +16,7 @@ const App = () => {
         <Route path="/projects"><Projects/></Route>
         <Route path ="/blogs"><Blogs/></Route>
       </Switch>
-      <Footer/>
+      {/* <Footer/> */}
     </BrowserRouter>
   );
 };

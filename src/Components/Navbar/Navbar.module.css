@@ -7,10 +7,16 @@
     padding-top: 10px;
     padding-bottom: 10px;
     align-items: center;
+    
+    /* width: 100vw; */
 }
 
 .links{
     display: flex;
-    justify-content: space-between;
-    min-width: 10vw;
+    
+    
+}
+
+.links>*{
+    margin-left: 50px;
 }

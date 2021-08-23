@@ -1,0 +1,25 @@
+.container {
+  scroll-snap-type: x mandatory;
+  overflow-x: scroll;
+  height: 100vh;
+  display: flex;
+}
+
+section {
+  scroll-snap-align: start;
+  height: 100vh;
+}
+
+
+
+
+.intro {
+  padding-top: 20%;
+  display: flex;
+  /* flex-direction: column; */
+  min-height: 80vh;
+  min-width: 90vw;
+  border-radius: 4px;
+  background: #e1e6ec;
+  box-shadow: -6px 6px 12px #898c90, 6px -6px 12px #ffffff;
+}
