@@ -1,25 +1,60 @@
 .container {
   scroll-snap-type: x mandatory;
-  overflow-x: scroll;
   height: 100vh;
   display: flex;
+  flex-direction: column;
 }
-
-section {
-  scroll-snap-align: start;
-  height: 100vh;
-}
-
-
-
 
 .intro {
-  padding-top: 20%;
   display: flex;
-  /* flex-direction: column; */
-  min-height: 80vh;
-  min-width: 90vw;
-  border-radius: 4px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
   background: #e1e6ec;
-  box-shadow: -6px 6px 12px #898c90, 6px -6px 12px #ffffff;
+  padding-left: 5%  ;
+  padding-right: 5%  ;
+}
+
+
+.textBig{
+  font-size: 64px;
+  color: crimson;
+}
+
+.project{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+   min-height: 100vh;
+  background: #e1e6ec;
+  padding-left: 5%  ;
+  padding-right: 5%  ;
+}
+
+.blog {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  align-items: flex-start;
+  min-height: 100vh;
+  background: #e1e6ec;
+  padding-left: 5%  ;
+  padding-right: 5%  ;
+}
+
+button{
+  padding: 10px;
+  border-radius: 7px;
+  font-size: medium;
+  font-weight: 500;
+  border: 1px solid black;
+  background-color: #1f1f1f;
+  color: whitesmoke;
+}
+
+button:hover{
+  color: black;
+  background-color: #e1e6ec;
+  transition: all 0.5s radial;
 }
