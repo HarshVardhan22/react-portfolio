@@ -13,6 +13,7 @@ const Home = () => {
     "Electronics Engineer",
   ]);
   const [index, setIndex] = useState(0);
+
   useEffect(() => {
     let interval = setInterval(() => {
       setIndex((prevState) => prevState + 1);
@@ -20,6 +21,8 @@ const Home = () => {
     }, 500);
     return () => clearInterval(interval);
   }, [index]);
+
+  
   return (
     <div className={styles.container}>
       {/* <Navbar/> */}
@@ -41,7 +44,7 @@ const Home = () => {
         <div className={styles.project}>
           <div className={styles.left}>
             <h1>
-              I can fit your{" "}
+              I can fit {" "}
               <span className={styles.textBig}>beautiful ideas</span>
             </h1>
             <h1>
@@ -59,7 +62,7 @@ const Home = () => {
         <div className={styles.blog}>
           <div className={styles.left}>
             <h1>
-              I love to spread <span className={styles.textBig}>knowledge</span>
+              I love to share <span className={styles.textBig}>knowledge</span>
             </h1>
             <h1>
               as much as I can, so I write{" "}
