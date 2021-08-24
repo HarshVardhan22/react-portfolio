@@ -15,7 +15,7 @@ const Blogs = () => {
                   
                   <h2>{item.title}</h2>
                     <button className={styles.goto}>
-                      <a href={item.liveLink}>Live Link</a>
+                      <a href={item.liveLink}>Blog Link</a>
                     </button>
                   
                   <h5>{item.description}</h5>

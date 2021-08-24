@@ -50,7 +50,7 @@ const projectData =[
 }, {
     title:"The Office Quiz - CLI",
     gitLink:"https://github.com/HarshVardhan22/CLI-TheOfficeQuiz",
-    liveLink:"",
+    liveLink:"https://replit.com/@HarshSinha6/CLI-TheOfficeQuiz#index.js?embed=1&output=1",
     
 }, {
     title:"Do you know me Quiz - CLI",
