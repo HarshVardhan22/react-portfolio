@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./Footer.module.css";
-import { FaReact, FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
+import { FaTwitter, FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
 const Footer = () => {
   return (
     <div className={styles.footer}>
@@ -9,8 +9,8 @@ const Footer = () => {
           <FaGithub color="black" size="28px" />
         </a>
 
-        <a href="https://harshvardhanportfolio.netlify.app/">
-          <FaReact color="magenta" size="28px" />
+        <a href="https://twitter.com/Harshvardhan738">
+          <FaTwitter color="dodgerblue" size="28px" />
         </a>
 
         <a href="https://www.linkedin.com/in/harshvardhan-5a64a8148/">

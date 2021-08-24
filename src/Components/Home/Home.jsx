@@ -1,11 +1,12 @@
 import React, { useEffect, useState } from "react";
-import Navbar from "../Navbar/Navbar";
+
 import styles from "./Home.module.css";
 import { Link } from "react-router-dom";
-import Footer from "../Footer/Footer";
+
 import Fade from "react-reveal/Fade";
 import Bounce from "react-reveal/Bounce";
 const Home = () => {
+  // eslint-disable-next-line
   const [title, setTitle] = useState([
     "Web Developer",
     "Blogger",

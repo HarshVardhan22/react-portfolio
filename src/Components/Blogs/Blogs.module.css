@@ -1,0 +1,51 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    align-items: center;
+    width: 40vw;
+    margin-bottom: 25px;
+    border-radius: 5px;
+    background: #e8edf0;
+    box-shadow: 5px 5px 7px #94989a, -5px -5px 7px #ffffff;
+  }
+  
+  .miniCont{
+    min-height: 60vh;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  
+  
+  
+  .goto{
+    padding: 7px;
+    border: none;
+    font-size: medium;
+    border-radius: 5px;
+    background-color: #5786fe;
+    margin-right: 10px;
+  
+  }
+
+  .container{
+    margin-bottom: 50px;
+  }
+
+
+  @media only screen and (max-width:700px) {
+    .card{
+      flex-direction: column;
+      min-width: 80vw;
+      padding-bottom: 50px;
+    }
+    h2{
+      font-size: medium;
+    }
+    
+  }
